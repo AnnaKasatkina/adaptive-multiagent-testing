@@ -1,4 +1,8 @@
-# Стенд адаптивного тестирования асинхронных агентов
+# Адаптивное тестирование асинхронных мультиагентных систем
+
+Feedback-guided testing of asynchronous multi-agent systems with event-driven simulation and reproducible execution traces.
+
+Код ВКР «Разработка и исследование метода адаптивного тестирования асинхронных мультиагентных программных систем на основе обратной связи».
 
 Стенд проверяет, как задержки сообщений и порядок событий влияют на взаимодействующих агентов. Он задаёт допустимое расписание, сохраняет решения среды и позволяет точно повторить траекторию или продолжить исполнение из сохранённого префикса.
 
@@ -43,3 +47,7 @@ python -m adaptive_search --algorithm maxsum --profile tree --trials 1 --warmup 
 - «Локальный» основан на [mean_consensus_spade](https://github.com/AnnaKasatkina/mean_consensus_spade). Копия и лицензия сохранены в [vendor](laboratory/vendor/mean_consensus_spade/). RAPS опирается на [Spiridonoff и соавт.](https://jmlr.org/papers/v21/18-813.html), Max-Sum — на [Zivan и соавт.](https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CP.2021.60).
 
 Репозиторий содержит реализацию, тесты, входные конфигурации и файлы зависимостей. Результаты испытаний, отчёты, презентации и базы истории хранятся локально. Для выходных файлов предназначена игнорируемая папка `local-data/`.
+
+## Лицензия
+
+Код проекта распространяется по [лицензии MIT](LICENSE). Для включённой копии `mean_consensus_spade` сохранена [лицензия исходного проекта](laboratory/vendor/mean_consensus_spade/LICENSE).
