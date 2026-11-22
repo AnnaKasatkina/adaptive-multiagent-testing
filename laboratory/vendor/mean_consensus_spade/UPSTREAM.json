@@ -1,0 +1,11 @@
+{
+  "repository": "https://github.com/AnnaKasatkina/mean_consensus_spade",
+  "commit": "a776db124ace86059a77bc640c5e7a606b97bbb5",
+  "files": {
+    "agent.py": "af912df428878d8d240aec4abcb5e41982ed3c9a1af1b9939ac77deab4e4697b",
+    "graph.json": "8c7ecc8c95263ec3f34f238cb7d317e198d363722aa2e16182ce623e8cd16bd1",
+    "LICENSE": "5ebf933ae9c411fe0ecdd32caa5928371b31cdba6977e068c33a347244c2936b",
+    "README.md": "11abecdbf4350a6508df7361c5c51efe2f040b9e533918e2aa9facd69584f205",
+    "run.py": "76fda618f841899996866e73a7e91e6e00de28b326f165fd77780270398f6180"
+  }
+}

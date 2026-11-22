@@ -1,0 +1,90 @@
+{
+  "schema_version": 2,
+  "time_model": "events-1",
+  "algorithm": "homework",
+  "name": "Ориентированное кольцо",
+  "nodes": [
+    {
+      "id": "a01",
+      "initial": 0.0,
+      "label": "1",
+      "overrides": {}
+    },
+    {
+      "id": "a02",
+      "initial": 0.0,
+      "label": "2",
+      "overrides": {}
+    },
+    {
+      "id": "a03",
+      "initial": 0.0,
+      "label": "3",
+      "overrides": {}
+    },
+    {
+      "id": "a04",
+      "initial": 1.0,
+      "label": "4",
+      "overrides": {}
+    },
+    {
+      "id": "a05",
+      "initial": 1.0,
+      "label": "5",
+      "overrides": {}
+    },
+    {
+      "id": "a06",
+      "initial": 1.0,
+      "label": "6",
+      "overrides": {}
+    }
+  ],
+  "edges": [
+    {
+      "source": "a01",
+      "target": "a02",
+      "overrides": {}
+    },
+    {
+      "source": "a02",
+      "target": "a03",
+      "overrides": {}
+    },
+    {
+      "source": "a03",
+      "target": "a04",
+      "overrides": {}
+    },
+    {
+      "source": "a04",
+      "target": "a05",
+      "overrides": {}
+    },
+    {
+      "source": "a05",
+      "target": "a06",
+      "overrides": {}
+    },
+    {
+      "source": "a06",
+      "target": "a01",
+      "overrides": {}
+    }
+  ],
+  "horizon_ms": 60000,
+  "max_gap_ms": 12000,
+  "max_delay_ms": 8000,
+  "epsilon": 0.001,
+  "defaults": {
+    "interval_ms": 1000,
+    "interval_jitter_ms": 0,
+    "first_update_ms": 1000,
+    "delay_ms": 200,
+    "delay_jitter_ms": 0
+  },
+  "episodes": [],
+  "schedule": null,
+  "view": {}
+}

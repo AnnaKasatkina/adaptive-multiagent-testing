@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "name": "Ориентированное кольцо",
+  "nodes": [
+    {
+      "id": "a01",
+      "initial": 0.0,
+      "label": "1",
+      "overrides": {}
+    },
+    {
+      "id": "a02",
+      "initial": 0.0,
+      "label": "2",
+      "overrides": {}
+    },
+    {
+      "id": "a03",
+      "initial": 0.0,
+      "label": "3",
+      "overrides": {}
+    },
+    {
+      "id": "a04",
+      "initial": 1.0,
+      "label": "4",
+      "overrides": {}
+    },
+    {
+      "id": "a05",
+      "initial": 1.0,
+      "label": "5",
+      "overrides": {}
+    },
+    {
+      "id": "a06",
+      "initial": 1.0,
+      "label": "6",
+      "overrides": {}
+    }
+  ],
+  "edges": [
+    {
+      "source": "a01",
+      "target": "a02",
+      "overrides": {}
+    },
+    {
+      "source": "a02",
+      "target": "a03",
+      "overrides": {}
+    },
+    {
+      "source": "a03",
+      "target": "a04",
+      "overrides": {}
+    },
+    {
+      "source": "a04",
+      "target": "a05",
+      "overrides": {}
+    },
+    {
+      "source": "a05",
+      "target": "a06",
+      "overrides": {}
+    },
+    {
+      "source": "a06",
+      "target": "a01",
+      "overrides": {}
+    }
+  ],
+  "horizon": 200,
+  "max_gap": 4,
+  "max_delay": 5,
+  "epsilon": 0.001,
+  "defaults": {
+    "activation_mode": "random",
+    "activation_probability": 0.5,
+    "activation_period": 2,
+    "activation_phase": 0,
+    "delay_min": 1,
+    "delay_max": 5
+  },
+  "view": {}
+}
