@@ -43,7 +43,7 @@ async def main():
 
         max_deg = max(sum(row) for row in adj)
         a.weight = 1.0 / (max_deg + 1)
-
+        
         labels.append(a.label)
         agents.append(a)
 

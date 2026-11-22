@@ -1,0 +1,2 @@
+# Keep the pinned upstream files byte-for-byte identical on every platform.
+laboratory/vendor/mean_consensus_spade/** -text
